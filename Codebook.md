@@ -26,6 +26,5 @@ The R script run_analysis.R is well commented at each step of the analysis, whic
 
 ** The data are pre-nomrmalized in the range [-1,1] and are dimensionless and unitless.
 
-The relavent line of code is lines 5-5 in run_analysis.R:
-# Set the working directory for data
+The relavent line of code is line 5 in run_analysis.R:
 setwd("~/Work/R/data")
