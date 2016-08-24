@@ -3,11 +3,11 @@ This code book describes the data and analysis performed on the source data whic
 A discription of the relavent data files is separately provided in the Readme.md file of this same repo.
 
 The R script named run_analysis.R, also found in this same repo, performs the following operations on the data. These instructions are taken directly from the Coursera Getting and Cleaning Data course project web page.
-1.Merges the training and the test sets to create one data set.
-2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set
-4.Appropriately labels the data set with descriptive variable names. 
-5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The R script run_analysis.R is well commented at each step of the analysis, which can be summarized at a high level as follows:
 1. Prepare the R environment by clearing the global environment and setting the working directory*
